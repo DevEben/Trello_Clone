@@ -1,0 +1,1204 @@
+* {
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: max-content;
+}
+.First {
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+}
+.Header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+}
+.Left1 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.Left1 img {
+    width: 140px;
+    height: 60px;
+    object-fit: contain;
+    cursor: pointer;
+}
+.Left1 > p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+.Right1 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Right1 > p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.Get {
+    width: 60%;
+    height: 100%;
+    background: #0065ff;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.Content1 {
+    width: 100%;
+    height: 120vh;
+    position: relative;
+}
+.Content1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ImageDiv {
+    position: absolute;
+    right: 0px;
+    top: -140px;
+}
+.ImageDiv img {
+    width: 700px;
+    height: 1050px;
+    object-fit: contain;
+}
+.RightContent {
+    width: 750px;
+    height: 400px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 60;
+}
+.RightContent > h3 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-left: 60px;
+}
+.RightContent > p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+.EmailBtn {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+}
+.EmailBtn input {
+    width: 300px;
+    height: 50px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    padding-inline: 10px;
+}
+.SignUpBtn {
+    width: 150px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0065ff;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.Watch {
+    width: 180px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.Watch > p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: underline;
+    margin-left: 63px;
+}
+.Watch img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+.Second {
+    width: 100%;
+    height: 120vh;
+    background: linear-gradient(white, #e8fcff);
+}
+.Top2 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Top2 > h6 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+.Top2 > h3 {
+    font-size: 33px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+.Top2 > p {
+    font-size: 20px;
+    margin-left: 60px;
+}
+.spans {
+    font-size: 20px;
+    text-decoration: underline;
+    color: #2072d9;
+    cursor: pointer;
+}
+.TopD2 {
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.TopD2Left {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Board {
+    width: 80%;
+    height: 22%;
+    display: flex;
+    margin-left: 90px;
+    margin-top: 95px;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+}
+.BlueB {
+    width: 3%;
+    height: 100%;
+    background: #00c7e5;
+    border-radius: 8px 0px 0px 8px;
+}
+.WhiteB {
+    width: 97%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 0px 8px 8px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.WhiteB > h4 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.WhiteB > p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+.TopD2Left > h4 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-left: 120px;
+    cursor: pointer;
+}
+.TopD2Left > p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 6px;
+    margin-left: 120px;
+    cursor: pointer;
+}
+.TopD2Right {
+    width: 70%;
+    height: 100%;
+    position: relative;
+}
+.TopD2Right img {
+    width: 800px;
+    height: 450px;
+    object-fit: contain;
+    position: absolute;
+    right: 0px;
+    bottom: 30px;
+}
+.Third {
+    width: 100%;
+    height: 110vh;
+}
+.InAction {
+    width: 100%;
+    height: 15%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.InAction > h5 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.InAction > h2 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.Project {
+    width: 100%;
+    height: 50%;
+}
+.ForWBack {
+    width: 95%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.ForWBack img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.Boxes {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.SmallBox {
+    width: 340px;
+    height: 240px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
+}
+.SmallBTop {
+    width: 100%;
+    height: 18%;
+    background: #ff7452;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+}
+.Icons {
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.Icons img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+.SmallBDown {
+    width: 100%;
+    height: 82%;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+.SmallBDownText {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+}
+.SmallBDownText > h4 {
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+.SmallBDownText > p {
+    font-size: 17px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.SmallBTop2 {
+    width: 100%;
+    height: 18%;
+    background: #2684ff;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+}
+.SmallBTop3 {
+    width: 100%;
+    height: 18%;
+    background: #57d9a3;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+}
+.ExploreAll {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ExploreAllText {
+    width: 70%;
+    height: 20%;
+}
+.ExploreAllText > p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.ExploreAllBtn {
+    width: 15%;
+    height: 25%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    border: #0065ff solid 1px;
+    border-radius: 5px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.Fourth {
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.BGImage4 {
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: linear-gradient(to right, #007df5, #00b3da); */
+    position: relative;
+}
+.BGImage4 img {
+    width: 100%;
+    height: 100%;
+}
+.Headings4 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: absolute;
+    top: -30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Headings4 > h3 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.Headings4 > p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.DiscoverBtn {
+    width: 200px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Body4_1 {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 120px;
+}
+.BodyBody1 {
+    width: 55%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BodyBody1 img {
+    width: 100%;
+    height: 95%;
+    object-fit: contain;
+}
+.BodyBody2 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ImageText1 {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.ImageText1 img {
+    width: 30px;
+    height: 30px;
+}
+.ImageText1 > p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.BodyBody2 > p {
+    font-size: 20px;
+    margin-left: 20px;
+}
+.BodyBody2 > span {
+    font-size: 21px;
+    color: #1e52cc;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.RestPart4 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.Body4_2 {
+    width: 80%;
+    height: 370px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 40px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.Fifth {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.FifthText {
+    width: 80%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.FifthText > h5 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.FifthText > h2 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.FifthText > h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.FifthBoxes {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Integration {
+    width: 28%;
+    height: 90%;
+    border-radius: 10px;
+    background: #fafbfc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Integration img{
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.Integration > h3 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+.Integration > p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 25px;
+    margin-bottom: 35px;
+}
+.Browse {
+    width: 180px;
+    height: 40px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: #0065ff solid 1px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.Browse2 {
+    width: 190px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: #0065ff solid 1px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.Sixth {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(white, #e6fcff);
+}
+.ForWBack2 {
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.LineB {
+    width: 70px;
+    height: 9px;
+    background: #838ea0;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.Dot {
+    width: 8px;
+    height: 8px;
+    background: black;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.ForWBack2 img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.Quotes {
+    width: 85%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.QuotesR {
+    width: 70%;
+    height: 100%;
+    background: white;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.QuotesR > h6 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.LineR {
+    width: 150px;
+    height: 1px;
+    background: #000;
+    margin-top: 140px;
+    margin-left: 60px;
+}
+.QuotesR > p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.ReadMore {
+    width: 85%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+}
+.ReadMore img {
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+}
+.ReadMore > span {
+    font-size: 15px;
+    color: #1e52cc;
+    font-weight: 400;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.QuotesL {
+    width: 30%;
+    height: 100%;
+    background: linear-gradient(#f299d9, #6d58c1);
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.QuotesL > h5 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.QuotesL > p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 90px;
+    margin-left: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Seventh {
+    width: 100%;
+    height: 170vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#e6fcff, white);
+}
+.Headings7 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Headings7 > h3 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.Headings7 > p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.DiscoverBtn7 {
+    width: 150px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0065ff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.PricingPlans {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Free {
+    width: 21%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    border: lightgray solid 1px;
+    background: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Free > h6 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.Money {
+    width: 70px;
+    height: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+.Money > h4 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.Free > h5 {
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.Free > p {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 150px;
+    margin-left: 10px;
+}
+.Started {
+    width: 110px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: #29c3df solid 1px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.LearnMore7  {
+    font-size: 15px;
+    text-decoration: underline;
+    color: #1e52cc;
+    margin-left: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.Free2 {
+    width: 21%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    border: lightgray solid 1px;
+    background: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Free2 > h6 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.Money2 {
+    width: 70px;
+    height: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+.Money2 > h4 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.Free2 > h5 {
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.Free2 > p {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 110px;
+    margin-left: 10px;
+}
+.Started {
+    width: 110px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: #29c3df solid 1px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.Free3 {
+    width: 21%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    border: #29c3df solid 2px;
+    background: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Free3 > h6 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.Money3 {
+    width: 70px;
+    height: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+.Money3 > h4 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.Free3 > h5 {
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.Free3 > p {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 65px;
+    margin-left: 10px;
+}
+.Started {
+    width: 110px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: #29c3df solid 1px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.LearnMore7  {
+    font-size: 15px;
+    text-decoration: underline;
+    color: #1e52cc;
+    margin-left: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.Free4 {
+    width: 21%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    border: lightgray solid 1px;
+    background: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Free4 > h6 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.Money4 {
+    width: 70px;
+    height: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+.Money4 > h4 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.Free4 > h5 {
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.Free4 > p {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.Started {
+    width: 110px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: #29c3df solid 1px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.Cost {
+    font-size: 15px;
+}
+.LastText {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.LogoContainer {
+    width: 75%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.LogoContainer img {
+    width: 150px;
+    height: 50px;
+    object-fit: contain;
+}
+.Eight {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.FinalUp {
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to right, #664eaf, #db4eb3);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Trello {
+    width: 50%;
+    height: 70%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Trello > h3 {
+    font-size: 37px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.EmailBtn8 {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+}
+.EmailBtn8 input {
+    width: 420px;
+    height: 50px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    padding-inline: 10px;
+}
+.FinalUp img {
+    width: 150px;
+    height: 190px;
+    object-fit: cover;
+}
+.FinalDown {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background: #172b4d;
+}
+.Footer {
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.Logoss {
+    width: 20%;
+    height: 90%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Logoss img {
+    width: 150px;
+    height: 60px;
+    object-fit: contain;
+}
+.Logoss > p {
+    margin-top: 10px;
+}
+.Aboutsss {
+    width: 20%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Aboutsss > p {
+    margin-top: 10px;
+    font-size: 13px;
+}
+.Aboutsss > span {
+    font-size: 17px;
+    font-weight: 400;
+}
+.StraghtLine {
+    width: 98%;
+    height: 0.5px;
+    background: #3f4f6c;
+}
+.Socials {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.SocialsL {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.SocialsL img {
+    width: 25px;
+    height: 25px;
+    margin-left: 30px;
+}
+.SocialsL > h5 {
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.SocialsL > p {
+    font-size: 12px;
+    margin-left: 30px;
+}
+.SocialsR {
+    width: 20%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 50px;
+}
+.SocialsR img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
